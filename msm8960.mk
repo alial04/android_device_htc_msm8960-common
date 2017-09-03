@@ -46,6 +46,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-impl \
     android.hardware.audio.effect@2.0-impl
+	
+# Bluetooth packages
+PRODUCT_PACKAGES += \
+    libbt-vendor
+
+# Bluetooth HAL interfaces
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth@1.0-impl
 
 # Display
 PRODUCT_PACKAGES += \
