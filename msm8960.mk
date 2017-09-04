@@ -105,6 +105,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     power.msm8960
 
+# Power HIDL interfaces
+PRODUCT_PACKAGES += \
+    android.hardware.power@1.0-impl
+
 # WiFi
 PRODUCT_PACKAGES += \
     hostapd \
