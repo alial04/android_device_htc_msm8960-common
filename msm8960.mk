@@ -138,6 +138,9 @@ PRODUCT_PACKAGES += \
     wpa_supplicant \
     wpa_supplicant.conf
 
+# Vendor Interface Manifest
+DEVICE_MANIFEST_FILE := $(LOCAL_PATH)/manifest.xml
+
 # Vibrator HIDL interfaces
 PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-impl
