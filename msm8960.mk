@@ -113,3 +113,7 @@ PRODUCT_PACKAGES += \
     hostapd_default.conf \
     wpa_supplicant \
     wpa_supplicant.conf
+
+# Vibrator HIDL interfaces
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator@1.0-impl
